@@ -2,12 +2,13 @@
 ❤️ 个人代理,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ACL4SSR@master/personalP.txt,86400
 🐔 Twitter,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ACL4SSR@master/twitter.txt,86400
 🗺️ Youtube,clash-classic:https://git.faintghost.com/FaintGhost/proxy/raw/branch/master/clash/rule_provider/youtube.txt,86400
-🗺️ Google,clash-classic:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt,86400
+🗺️ Google,clash-domain:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt,86400
 🎮 台服游戏,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ACL4SSR@master/gamestw.txt,86400
 🎮 日服游戏,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ACL4SSR@master/gamesjp.txt,86400
 📲 电报信息,clash-ipcidr:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt,86400
-🍎 苹果服务,clash-classic:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt,86400
-🍎 iCloud,clash-classic:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt,86400
+🍎 苹果服务,clash-domain:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt,86400
+🍎 iCloud,clash-domain:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt,86400
+🎯 全球直连,[]GEOIP,LAN
 🎯 全球直连,[]GEOIP,CN
 🎯 全球直连,clash-domain:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt,86400
 🎯 全球直连,clash-ipcidr:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt,86400
