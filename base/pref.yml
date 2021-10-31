@@ -5,7 +5,7 @@ common:
   enable_insert: true
   insert_url: []
   prepend_insert_url: true
-  exclude_remarks: ["(到期|剩余流量|时间|官网|产品|平台)"]
+  exclude_remarks: ["(到期|剩余流量|时间|官网|产品|平台|官 网|续费)"]
   include_remarks: []
   enable_filter: false
   filter_script: ""
@@ -48,11 +48,11 @@ node_pref:
   append_sub_userinfo: true
   clash_use_new_field_name: true
   clash_proxies_style: flow
-  rename_node:
+  rename_node: false
 #  - {match: "\\(?((x|X)?(\\d+)(\\.?\\d+)?)((\\s?倍率?)|(x|X))\\)?", replace: "$1x"}
 #  - {script: "function rename(node){}"}
 #  - {script: "path:/path/to/script.js"}
-  - {import: snippets/rename_node.txt}
+  # - {import: snippets/rename_node.txt}
 
 managed_config:
   write_managed_config: true
