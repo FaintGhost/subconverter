@@ -11,5 +11,5 @@
 🎯 全球直连,[]GEOIP,CN
 🎯 全球直连,clash-domain:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt,86400
 🎯 全球直连,clash-ipcidr:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt,86400
-🛑 全球拦截,clash-classic:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt,86400
+🛑 全球拦截,clash-domain:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt,86400
 🐟 漏网之鱼,[]FINAL
