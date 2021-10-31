@@ -1,0 +1,1 @@
+[![Build Status](https://drone.faintghost.com/api/badges/FaintGhost/subconverter/status.svg)](https://drone.faintghost.com/FaintGhost/subconverter)
