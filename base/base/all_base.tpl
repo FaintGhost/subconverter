@@ -2,9 +2,11 @@
 
 port: {{ default(global.clash.http_port, "7890") }}
 socks-port: {{ default(global.clash.socks_port, "7891") }}
+redir-port: {{ default(global.clash.redir_port, "7892") }}
+mixed-port: {{ default(global.clash.mixed_port, "7893") }}
 allow-lan: {{ default(global.clash.allow_lan, "true") }}
 mode: Rule
-log-level: {{ default(global.clash.log_level, "info") }}
+log-level: {{ default(global.clash.log_level, "warning") }}
 external-controller: :9090
 {% if default(request.clash.dns, "") == "1" %}
 dns:

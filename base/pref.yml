@@ -76,7 +76,7 @@ emojis:
 
 rulesets:
   enabled: true
-  overwrite_original_rules: false
+  overwrite_original_rules: true
   update_ruleset_on_request: false
   rulesets:
 #  - {rule: "GEOIP,CN", group: "DIRECT"}
@@ -90,21 +90,23 @@ rulesets:
 
 proxy_groups:
   custom_proxy_group:
-#  - {name: UrlTest, type: url-test, rule: [".*"], url: http://www.gstatic.com/generate_204, interval: 300, tolerance: 100, timeout: 5}
+#  - {name: 香港节点, type: url-test, rule: ["(香港|HK)"], url: http://www.gstatic.com/generate_204, interval: 300, tolerance: 150, timeout: 5}
 #  - {name: Proxy, type: select, rule: [".*"]}
 #  - {name: group1, type: select, rule: ["!!GROUPID=0"]}
 #  - {name: v2ray, type: select, rule: ["!!GROUP=V2RayProvider"]}
 #  - {import: snippets/groups_forcerule.txt}
 #  - {name: ssid group, type: ssid, rule: ["default_group", "celluar=group0,ssid1=group1,ssid2=group2"]}
-  - {import: snippets/groups.txt}
+    - {import: snippets/groups.txt}
 
 template:
   template_path: ""
   globals:
   - {key: clash.http_port, value: 7890}
   - {key: clash.socks_port, value: 7891}
+  - {key: clash.redir_port, value: 7892}
+  - {key: clash.mixed_port, value: 7893}
   - {key: clash.allow_lan, value: true}
-  - {key: clash.log_level, value: info}
+  - {key: clash.log_level, value: warning}
   
 aliases:
   - {uri: /v, target: /version}
