@@ -7,8 +7,8 @@ Cryptocurrency,clash-classic:https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@m
 Telegram,clash-classic:https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Telegram/Telegram.yaml,86400
 China,clash-classic:https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/China.yaml,86400
 ChinaIP,clash-ipcidr:https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/ChinaIP.yaml,86400
-❤️ 个人直连,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ACL4SSR@master/personalD.txt,86400
-❤️ 个人代理,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ACL4SSR@master/personalP.txt,86400
-🎮 台服游戏,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ACL4SSR@master/gamestw.txt,86400
-🎮 日服游戏,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ACL4SSR@master/gamesjp.txt,86400
+个人直连,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ruleset@main/personalD.txt,86400
+个人代理,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ruleset@main/personalP.txt,86400
+台服游戏,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ruleset@main/gamestw.txt,86400
+日服游戏,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ruleset@main/gamesjp.txt,86400
 Others,[]MATCH

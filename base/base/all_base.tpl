@@ -112,17 +112,13 @@ network_check_url=http://www.baidu.com/
 server_check_url=http://www.gstatic.com/generate_204
 resource_parser_url=https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js
 profile_img_url=https://raw.githubusercontent.com/FaintGhost/files/main/img/cover.jpg
-ssid_suspended_list=Apple, Microsoft
+;ssid_suspended_list=Apple, Microsoft
 
 [dns]
 no-ipv6
 server=119.29.29.29
 server=223.5.5.5
 server=223.6.6.6
-server=1.1.1.1
-server=1.0.0.1
-server=8.8.8.8
-server=8.4.4.4
 
 [server_remote]
 
