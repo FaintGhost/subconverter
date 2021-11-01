@@ -11,3 +11,4 @@ ChinaIP,clash-ipcidr:https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Cl
 ❤️ 个人代理,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ACL4SSR@master/personalP.txt,86400
 🎮 台服游戏,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ACL4SSR@master/gamestw.txt,86400
 🎮 日服游戏,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ACL4SSR@master/gamesjp.txt,86400
+Others,[]MATCH

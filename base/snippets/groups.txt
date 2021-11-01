@@ -18,3 +18,4 @@ ChinaIP`select`[]DIRECT`[]NodeSelect
 🎮 日服游戏`select`[]🇯🇵 日本节点
 ❤️ 个人直连`select`[]DIRECT`[]NodeSelect
 ❤️ 个人代理`select`[]NodeSelect`[]DIRECT`[]🇭🇰 香港节点`[]🇸🇬 新加坡节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇸 美国节点
+Others`select`[]NodeSelect`[]DIRECT`[]🇭🇰 香港节点`[]🇸🇬 新加坡节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇸 美国节点
