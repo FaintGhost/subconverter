@@ -11,4 +11,5 @@ ExtraDirect,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ruleset@main/ex
 ExtraProxy,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ruleset@main/extraproxy.txt,86400
 台服游戏,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ruleset@main/gamestw.txt,86400
 日服游戏,clash-classic:https://cdn.jsdelivr.net/gh/FaintGhost/ruleset@main/gamesjp.txt,86400
+GEOIP,LAN,DIRECT
 Others,[]MATCH
