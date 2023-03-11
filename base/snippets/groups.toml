@@ -1,0 +1,145 @@
+[[custom_groups]]
+name = "选择代理"
+type = "select"
+rule = [
+    "[]自动选择",
+    "[]手动选择",
+    "[]HK 香港",
+    "[]TW 台湾",
+    "[]SG 新加坡",
+    "[]JP 日本",
+    "[]US 美国",
+    "[]DIRECT"
+]
+
+[[custom_groups]]
+name = "自动选择"
+type = "url-test"
+rule = [
+    "[]HK 香港",
+    "[]TW 台湾",
+    "[]SG 新加坡",
+    "[]JP 日本",
+    "[]US 美国"
+]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+tolerance = 50
+
+[[custom_groups]]
+name = "手动选择"
+type = "select"
+rule = [".*"]
+
+[[custom_groups]]
+name = "HK 香港"
+type = "url-test"
+rule = ["(香港|港|HK|hk"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+tolerance = 50
+
+[[custom_groups]]
+name = "TW 台湾"
+type = "url-test"
+rule = ["(台湾|台|TW|tw"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+tolerance = 50
+
+[[custom_groups]]
+name = "SG 新加坡"
+type = "url-test"
+rule = ["(新加坡|新|SG|sg"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+tolerance = 50
+
+[[custom_groups]]
+name = "JP 日本"
+type = "url-test"
+rule = ["(日本|日|JP|jp"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+tolerance = 50
+
+[[custom_groups]]
+name = "US 美国"
+type = "url-test"
+rule = ["(美国|美|US|us"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+tolerance = 50
+
+[[custom_groups]]
+name = "Cygames"
+type = "select"
+rule = [
+    "[]JP 日本",
+    "[]选择代理"
+]
+
+[[custom_groups]]
+name = "TWGames"
+type = "select"
+rule = [
+    "[]HK 香港",
+    "[]TW 台湾",
+    "[]选择代理"
+]
+
+[[custom_groups]]
+name = "ExtraDirect"
+type = "select"
+rule = [
+    "[]DIRECT",
+    "[]选择代理"
+]
+
+[[custom_groups]]
+name = "Github"
+type = "select"
+rule = [
+    "[]选择代理",
+    "[]手动选择",
+    "[]HK 香港",
+    "[]TW 台湾",
+    "[]SG 新加坡",
+    "[]JP 日本",
+    "[]US 美国"
+]
+
+[[custom_groups]]
+name = "OpenAI"
+type = "select"
+rule = [
+    "[]SG 新加坡",
+    "[]JP 日本",
+    "[]US 美国",
+    "[]HK 香港",
+    "[]TW 台湾"
+]
+
+[[custom_groups]]
+name = "Oracle"
+type = "select"
+rule = [
+    "[]SG 新加坡",
+    "[]JP 日本",
+    "[]US 美国",
+    "[]HK 香港",
+    "[]TW 台湾"
+]
+
+[[custom_groups]]
+name = "Match"
+type = "select"
+rule = [
+    "[]选择代理",
+    "[]HK 香港",
+    "[]TW 台湾",
+    "[]SG 新加坡",
+    "[]JP 日本",
+    "[]US 美国",
+    "[]DIRECT"
+]

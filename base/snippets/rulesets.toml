@@ -1,0 +1,7 @@
+[[rulesets]]
+group = "Cygames"
+ruleset = "https://raw.githubusercontent.com/FaintGhost/ruleset/main/cygames.txt"
+
+[[rulesets]]
+group = "ExtraDirect"
+ruleset = "https://cdn.jsdelivr.net/gh/Larvan2/Clash_Rulesets@release/direct.txt"
