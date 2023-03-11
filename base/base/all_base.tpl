@@ -8,6 +8,9 @@ allow-lan: {{ default(global.clash.allow_lan, "true") }}
 mode: Rule
 log-level: {{ default(global.clash.log_level, "warning") }}
 external-controller: :9090
+script:
+  shortcuts:
+    quic: network == 'udp' and dst_port == 443
 {% if default(request.clash.dns, "") == "1" %}
 dns:
   enabled: true
